@@ -1,0 +1,6 @@
+export { Navbar } from "../Navbar/Navbar"
+export { Footer } from "../Footer/Footer"
+export { Routes } from "../Routes"
+export { Search } from "../Search/Search"
+export { Results } from "../Results/Results"
+export { Links } from "../Links/Links"
