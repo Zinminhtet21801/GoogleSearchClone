@@ -85,10 +85,10 @@ export const Results = () => {
     case "/videos":
       return (
         <div className="flex flex-wrap">
-          {results && results.map(({ sitelink }, index) => (
+          {results && results.map(({ link}, index) => (
             <div key={index} className="p-2">
               <ReactPlayer
-                url={sitelink}
+                url={link}
                 controls
                 width="355px"
                 height="200px"

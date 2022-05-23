@@ -5,7 +5,7 @@ import { useDebounce } from "use-debounce";
 export const Search = () => {
   const [text, setText] = useState("Google");
   const { setSearchTerm } = useResultContext();
-  const [debouncedValue] = useDebounce(text, 300);
+  const [debouncedValue] = useDebounce(text, 500);
   useEffect(() => {
     if (debouncedValue) setSearchTerm(debouncedValue);
   }, [debouncedValue]);
